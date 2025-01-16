@@ -1,7 +1,11 @@
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 nav {
     display: flex;
@@ -63,4 +67,20 @@ h3 {
     margin-right: 20px;
     text-align: justify;
     margin-right: 5%;
+}
+
+.mBody {
+    background-color: rgb(37, 37, 36);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.naslov {
+    font-size: 2em;
+    margin-top: 5%;
+    color: #e0dbd0;
+    width: 40%;
+    text-align: center;
 }

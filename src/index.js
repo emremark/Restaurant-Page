@@ -1,4 +1,4 @@
-import { homePage } from "/home/vboxuser/Desktop/js/Restaurant-Page/src/home";
+//import { homePage } from "/home/vboxuser/Desktop/js/Restaurant-Page/src/home";
 import "./styles.css";
-homePage();
+//homePage();
 console.log("test");
