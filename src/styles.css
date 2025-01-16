@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    gap: 40px;
+}
+.fst {
+    width: 100vw;
+    height: 80vh;
+}
+button {
+    background-color: white;
+    border: white;
+    font-size: 2em;
+}
+.h {
+    color: #af7a19;
+    border: 2px solid #af7a19;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 3em;
+}
+h3 {
+    color: #af7a19;
+    font-size: 1em;
+}
+.imgc {
+    position: relative;
+    margin-bottom: 5%;
+}
+.imgc h1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.imgc h3 {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+}
+.hdown{
+    width: 100vw;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.scd {
+    width: 40%;
+    height: 40%;
+    margin-left: 5%;
+    padding-right: 20px;
+}
+.txt {
+    color: #af7a19;
+    font-size: 1.5em;
+    margin-right: 20px;
+    text-align: justify;
+    margin-right: 5%;
+}
