@@ -2,7 +2,13 @@ import homeImg from "../assest/jason-leung-poI7DelFiVA-unsplash.jpg";
 import homeImg1 from "../assest/stefan-johnson-xIFbDeGcy44-unsplash.jpg"
     
 export const homePage = function() {
+    let dug = document.getElementById("ho");
+    let dug2 = document.getElementById("me");
+    dug.className = "h";
+    dug2.className = "";
+
     let mainDiv = document.getElementById("content");
+    mainDiv.innerHTML = ""
     let hup = document.createElement("div");
     hup.className = "hup";
     let imgc = document.createElement("div");
@@ -26,6 +32,8 @@ export const homePage = function() {
     rdiv.className = "txt";
     rdiv.textContent = "Our food is, above all, Instagram-friendly. Post our dishes and watch the other posers die of envy. After one of our meals, you won`t be full — but neither will your bank account. No ideas on what to write here. This is a Webpack exercise and on manipulating the DOM via JavaScript."
 
+    
+    ///////////////dug.className = "h";
 
     mainDiv.appendChild(hup);
     hup.appendChild(imgc);
