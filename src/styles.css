@@ -12,6 +12,7 @@ nav {
     margin-bottom: 10%;
     margin-top: 10%;
     gap: 40px;
+
 }
 .fst {
     width: 100vw;
@@ -83,4 +84,24 @@ h3 {
     color: #e0dbd0;
     width: 40%;
     text-align: center;
+}
+.img3 {
+    width: 30vw;
+    height: 40vh;
+    margin-top: 10%;
+    padding-right: 120px;
+}
+
+.aboutD {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(37, 37, 36);
+    width: 100vw;
+    height: 100vh;
+}
+.abt {
+    font-size: 1.5em;
+    width: 400px;
+    text-align: justify;
+    margin-top: 15%;
 }

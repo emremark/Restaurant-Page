@@ -4,8 +4,10 @@ import homeImg1 from "../assest/stefan-johnson-xIFbDeGcy44-unsplash.jpg"
 export const homePage = function() {
     let dug = document.getElementById("ho");
     let dug2 = document.getElementById("me");
+    let dug3 = document.getElementById("ab");
     dug.className = "h";
     dug2.className = "";
+    dug3.className = "";
 
     let mainDiv = document.getElementById("content");
     mainDiv.innerHTML = ""

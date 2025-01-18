@@ -1,8 +1,10 @@
 export const menuPage = function () {
     let dug = document.getElementById("ho");
     let dug2 = document.getElementById("me");
+    let dug3 = document.getElementById("ab");
     dug.className = "";
     dug2.className = "h";
+    dug3.className = "";
 
     let mainDiv = document.getElementById("content");
     mainDiv.innerHTML = ""
@@ -14,8 +16,6 @@ export const menuPage = function () {
 
     mainDiv.appendChild(mb);
     mb.appendChild(nsl);
-    //let dug = document.getElementById("menu");
-    //////dug.className = "h";
 }
 
 
